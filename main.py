@@ -1,4 +1,5 @@
 from tkinter import *
+from tkinter import messagebox
 
 def menu():
   vtnMenu=Tk()
@@ -9,9 +10,8 @@ def menu():
   vtnMenu.mainloop()
 
 def noCerrar():
-  pass
+  messagebox.showwarning("No","")
 
 menu()
 
- 
- 
+
